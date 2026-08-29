@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/pearl-regex/',
+  base: '/winnow/',
   server: {
     port: 3000
   }
