@@ -1,4 +1,4 @@
-import init, { synthesize_with_annotation } from '../pkg/pearl_regex_core'
+import init, { synthesize_with_annotation } from '../pkg/winnow_core'
 
 async function main() {
   await init()

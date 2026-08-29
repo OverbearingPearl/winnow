@@ -1,4 +1,4 @@
-use pearl_regex_core::synthesize_with_annotation;
+use winnow_core::synthesize_with_annotation;
 use regex::Regex;
 
 #[test]

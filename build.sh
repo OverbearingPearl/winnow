@@ -3,7 +3,7 @@ set -e
 cd "$(dirname "$0")"
 
 echo "Building WASM..."
-cd pearl-regex-core
+cd winnow-core
 wasm-pack build --target web --out-dir ../web/pkg
 
 echo "Building frontend..."

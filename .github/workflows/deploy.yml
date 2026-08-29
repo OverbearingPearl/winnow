@@ -25,7 +25,7 @@ jobs:
 
       - name: Build WASM
         run: |
-          cd pearl-regex-core
+          cd winnow-core
           wasm-pack build --target web --out-dir ../web/pkg
 
       - name: Build frontend
